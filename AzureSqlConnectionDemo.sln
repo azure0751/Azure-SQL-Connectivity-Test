@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35327.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureSqlConnectionDemo", "AzureSqlConnectionDemo\AzureSqlConnectionDemo.csproj", "{E9AF282F-719A-40F0-BC1F-E2C4351B6984}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E9AF282F-719A-40F0-BC1F-E2C4351B6984}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E9AF282F-719A-40F0-BC1F-E2C4351B6984}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E9AF282F-719A-40F0-BC1F-E2C4351B6984}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E9AF282F-719A-40F0-BC1F-E2C4351B6984}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {89319BB1-2FAF-476C-AE15-7E24F22C8117}
+	EndGlobalSection
+EndGlobal

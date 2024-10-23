@@ -1,0 +1,31 @@
+﻿@model AzureSqlConnectionDemo.SqlConnectionModel
+
+<h2>Connect to Azure SQL Database</h2>
+
+<form asp-action="Connect" method="post">
+    <div class="form-group">
+        <label for="connectionString">ADO.NET Connection String</label><br />
+        <input type="text" class="form-control" id="connectionString" name="ConnectionString" value="@Model.ConnectionString" placeholder="Enter your connection string here" />
+    </div>
+    <br />
+    <div class="form-group">
+        <label for="serverAddress">SQL Server Address (for TCP connection test)</label>
+        <input type="text" class="form-control" id="serverAddress" name="ServerAddress" value="@Model.ServerAddress" placeholder="Enter your Azure SQL server address or IP" />
+    </div>
+    <br />
+    <button type="submit" class="btn btn-primary">Try To Connect</button>
+</form>
+
+@if (!string.IsNullOrEmpty(Model.Message))
+{
+    <div class="alert alert-info" role="alert">
+        @Model.Message
+    </div>
+}
+
+@if (!string.IsNullOrEmpty(Model.PingTestMessage))
+{
+    <div class="alert alert-info" role="alert">
+        @Model.PingTestMessage
+    </div>
+}
