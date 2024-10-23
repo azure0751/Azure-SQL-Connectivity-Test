@@ -1,0 +1,1 @@
+# Azure-SQL-Connectivity-Test
