@@ -31,6 +31,8 @@ namespace AzureSqlConnectionDemo
                pattern: "{controller=Sql}/{action=Index}/{id?}");
 
             app.Run();
+
+            string abc = "";
         }
     }
 }

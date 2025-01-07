@@ -4,3 +4,5 @@
 /AzureSqlConnectionDemo/obj
 /AzureSqlConnectionDemo/Properties/PublishProfiles
 /obj
+/AzureSqlConnectionDemo/.sonarqube/bin
+/AzureSqlConnectionDemo/.sonarqube
